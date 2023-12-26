@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Become a member</title>
+    <link rel="stylesheet" href="css/member.css">
+</head>
+<body>
+    <header>
+        <h1>Become a member</h1>
+        <nav class="navbar">
+            <button class="themebutton">Modifier le mode</button>
+
+            <ul class="menu" id="menu">
+                <li class="item">
+                    <a href="index.html" class="link">Home</a>
+                </li>
+                <li class="item">
+                    <a href="kenlooks.html" class="link">Different Ken Looks</a>
+                </li>
+                <li class="item">
+                    <a href="kenitems.html" class="link">Ken Related Items</a>
+                </li>
+            </ul>
+            <div class="burgerIcon" id="burgerIcon">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <form id="form">
+    <fieldset>
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom">
+        
+            <label for="prenom">Prénom :</label>
+            <input type="text" id="prenom">
+        
+            <label for="email">Email :</label>
+            <input type="email" id="email">
+            </form>
+    </fieldset>
+
+    <fieldset>
+        <label>Classe actuelle :</label>
+        <input type="radio" id="Tle" name="classe">
+        <label for="Tle">Terminale</label>
+        <input type="radio" id="1ere" name="classe">
+        <label for="1ere">1ère</label>
+        <input type="radio" id="2nde" name="classe">
+        <label for="2nde">2nde</label>
+    </fieldset>
+
+    <fieldset>
+        <label for="axePrefere">Axe préféré :</label>
+        <select id="axePrefere" required>
+            <option value="" selected disabled>Sélectionner un axe</option>
+            <option value="jv">Jeux Vidéos</option>
+            <option value="3d">3D</option>
+            <option value="coding">Coding</option>
+            <option value="creadesign">Créa-Design</option>
+            <option value="cdeb">Communication digitale et e-business</option>
+        </select><br><br>
+    </fieldset>
+    <button type="submit">S'inscrire</button>
+    <div id="message"></div>
+    </form>
+
+    <div id="burger-icon" class="burger-icon">
+        <div class="ligne"></div>
+        <div class="ligne"></div>
+        <div class="ligne"></div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="footer-contact">
+            <h3>Contact us</h3>
+            <ul>
+                <li>officialkenpagecontact.com</li>
+                <li>(555) 832-4367</li>    
+            </ul>
+        </div>
+    
+        <div class="social-media">
+            <h3>Follow us on social media</h3>
+            <ul>
+                <li>Instagram</li>
+                <li>Facebook</li>
+                <li>Twitter</li>
+                <li>TikTok</li>
+            </ul>
+    
+        </div>
+    </footer>
+
+    <div class="footer-copyright">
+        <p>2023 Official Ken Fan Page. All rights reserved.</p>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
